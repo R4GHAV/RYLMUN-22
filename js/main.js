@@ -19,7 +19,7 @@
     fitVideo();
     firstSectionActiveFix();
     setMenu();
-    SendMail();
+    // SendMail();
 
     //Show-Hide header sidebar
     $('#toggle').on('click', multiClickFunctionStop);
