@@ -980,6 +980,10 @@ h1.big-text {
     margin-top: 20px;
 }
 
+.excerpt p {
+    font-size: 16px;
+}
+
 .blog-item-holder-scode h4 {
     padding: 0;
     margin: 35px 0;
@@ -1491,12 +1495,13 @@ li.milestone h5 {
 
 li.milestone .milestone-info-left {
     margin-right: 35px;
-    text-align: right;
+    text-align: left;
     width: 30%;
 }
 
 li.milestone .milestone-info-right {
     width: 62%;
+    text-align: center;
 }
 
 p.milestone-num {
@@ -1839,6 +1844,15 @@ body.blog {
     float: left;
 }
 
+.single .entry-content1 {
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+    width: 1000px;
+    text-align: left;
+    padding-left: 40px;
+}
+
 .single .nav-links {
     transform: translateY(70px);
     margin-top: 35px;
@@ -2068,7 +2082,7 @@ footer ul {
 }
 
 .footer-mail {
-    font-size: 46px;
+    font-size: 32px;
     margin-bottom: 35px;
     line-height: 100%;
     font-weight: 700;
@@ -2642,7 +2656,7 @@ footer .footer-social-divider:before {
     }
 
     .footer-mail {
-        font-size: 30px;
+        font-size: 23px;
     }
 
     blockquote {
@@ -2751,7 +2765,7 @@ footer .footer-social-divider:before {
    }
 
     .footer-mail {
-        font-size: 28px;
+        font-size: 19px;
     }
 
 }
@@ -2823,11 +2837,18 @@ footer .footer-social-divider:before {
     flex-direction: column;
     justify-content: flex-end;
     align-items:flex-start;
+    transition: .6s ease-in-out;
 }
 
 .img-1:hover, .img-3:hover, .img-5:hover, .img-7:hover, .img-9:hover, .img-11:hover, .img-2:hover, .img-4:hover, .img-6:hover, .img-8:hover, .img-10:hover, .img-12:hover {
     background-image: none;
     background-color: #000;
+}
+
+.sec_msg {
+    display: none;
+    padding: 40px;
+    text-align: justify;
 }
 
 .cred {
@@ -2848,6 +2869,10 @@ footer .footer-social-divider:before {
 }
 
 .img-1:hover .cred, .img-3:hover .cred, .img-5:hover .cred, .img-7:hover .cred, .img-9:hover .cred, .img-11:hover .cred, .img-2:hover .cred, .img-4:hover .cred, .img-6:hover .cred, .img-8:hover .cred, .img-10:hover .cred, .img-12:hover .cred {
+    display: block;
+}
+
+.img-1:hover .sec_msg, .img-3:hover .sec_msg, .img-5:hover .sec_msg, .img-7:hover .sec_msg, .img-9:hover .sec_msg, .img-11:hover .sec_msg, .img-2:hover .sec_msg, .img-4:hover .sec_msg, .img-6:hover .sec_msg, .img-8:hover .sec_msg, .img-10:hover .sec_msg, .img-12:hover .sec_msg {
     display: block;
 }
 
