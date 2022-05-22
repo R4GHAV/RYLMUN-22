@@ -2238,6 +2238,14 @@ footer .footer-social-divider:before {
         max-width: 95%;     
     }
 
+    .single .entry-content1 {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;   
+        max-width: 95%;
+        padding-left: 0px;
+    }
+
     .one_half,  
     .one_third,  
     .two_third,  
@@ -2800,16 +2808,16 @@ footer .footer-social-divider:before {
     background-image: url("img/RYLMUN OC/Riya\(1\).jpg");
 } 
 .img-5{
-    background-image: url("img/RYLMUN OC/Tulip\ Chatterjee_.jpg");
+    background-image: url("img/RYLMUN OC/tulip.jpeg");
 } 
 .img-7{
     background-image: url("img/RYLMUN OC/Ranjul\ Chaudhary_.jpg");
 } 
 .img-9{
-    background-image: url("img/RYLMUN OC/Navya\ Sharma_.jpg");
+    background-image: url("img/RYLMUN OC/navya.jpeg");
 } 
 .img-11 {
-    background-image: url("img/Gallery /g6.png");
+    background-image: url("img/Gallery /2.jpg");
     background-position: right;
 }
 
@@ -2886,6 +2894,11 @@ footer .footer-social-divider:before {
         padding-top: 0;
     }
 
+    .sec_msg p {
+        font-size: 13px;
+        padding: 20px;
+    }
+
     .img-1, .img-3, .img-5, .img-7, .img-9, .img-11 {
         width: 100% !important;
         margin: auto;
@@ -2900,4 +2913,12 @@ footer .footer-social-divider:before {
         margin-bottom: 20px;
     }
  
+ }
+
+ .img-chrm {
+     background-image: url("images/Chairman-Ryan-Globa-Schools.jpg");
+ }
+
+ .img-chrw {
+     background-image: url("images/Grace-Pinto.jpg");;
  }
