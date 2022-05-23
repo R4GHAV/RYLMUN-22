@@ -2920,5 +2920,12 @@ footer .footer-social-divider:before {
  }
 
  .img-chrw {
-     background-image: url("images/Grace-Pinto.jpg");;
+     background-image: url("images/Grace-Pinto.jpg");
+     background-position: center;
+ }
+
+ .prici {
+     background-image: url("images/e2f56866-102a-438e-bce0-cf5ce24d8f34.jpg");
+     background-position: center;
+
  }
