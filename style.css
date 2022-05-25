@@ -2929,3 +2929,8 @@ footer .footer-social-divider:before {
      background-position: center;
 
  }
+
+ .text-slide .img-chrm:hover, .text-slide .img-chrw:hover, .text-slide .prici:hover {
+    background-color: #fff;
+    color: #000;
+ }
